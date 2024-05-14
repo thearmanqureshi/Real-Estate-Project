@@ -1,0 +1,285 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Spartan', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 64px;
+    color: aliceblue;
+}
+
+h5 {
+    font-size: 16px;
+    margin: 15px 0 20px 0;
+    color: aliceblue;
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 16px;
+    padding: 2px;
+    margin-top: 4px;
+}
+
+p {
+    font-size: 14px;
+    margin: 5px 0 20px 0;
+}
+
+.section-p1 {
+    padding: 40px 80px;
+}
+
+.section-m1 {
+    margin: 40px 0;
+}
+
+body {
+    width: 100%;
+}
+
+/* Header */
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 100px;
+    background: #e5d3c2;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.2s ease;
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+    color: #ee8f12;
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #ee8f12;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+
+/* Showcase */
+#showcase {
+    background-image: url(Images/home-banner.jpg);
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 200px 0;
+    -webkit-text-stroke: 0.2px bisque;
+}
+
+
+/* Features */
+#fe-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#features .fe-box {
+    width: 250px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 10px 10px 54px rgba(0, 0, 0, 0.2);
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+    margin: 100px 30px;
+    transition: 0.2s ease;
+}
+
+#features .fe-box:hover {
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.3);
+}
+
+
+/* Bangalore Articles */
+#article {
+    margin-top: 60px;
+    margin-bottom: 150px;
+}
+
+.p, .h {
+    text-align: center;
+}
+
+#art-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#art-body .card {
+    width: 345px;
+    text-align: left;
+    padding: 14px;
+    box-shadow: 10px 10px 54px rgba(0, 0, 0, 0.2);
+    border: 1px solid #cce7d0;
+    border-radius: 40px;
+    margin: 30px 30px;
+    transition: 0.2s ease;
+    overflow: hidden;
+}
+
+.card figcaption {
+    margin-top: 10px;
+}
+
+#art-body .card:hover {
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+    transition: 0.2s ease-in-out;
+    border-radius: 10px;
+}
+
+.card:hover img {
+    transform: scale(1.1);
+}
+
+.card a {
+    text-decoration: none;
+    color: #ee8f12;
+}
+
+.card a:hover {
+    border-bottom: 1.5px solid;
+    margin-left: 4px;
+    transition: 0.3s ease;
+}
+
+/* Model */
+#model {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#model-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#form-container {
+    padding: 50px 50px;
+}
+
+#map {
+    padding: 50px 50px;
+}
+
+.area,
+.switch-field,
+.location,
+.submit {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.location {
+    cursor: pointer;
+}
+
+.switch-field input[type="radio"] {
+    display: none;
+}
+
+.switch-field label {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.switch-field input[type="radio"]:checked + label {
+    background-color: #ee8f12;
+    color: #fff;
+}
+
+.submit {
+    background-color: #df9856;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #ee8f12;
+}
+
+.result {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.result h2 {
+    margin: 0;
+    color: #df9856;
+}
+
+
+
+/* Footer */
+footer {
+    padding: 15px;
+    background-color: bisque;
+}
+
+footer .copyright {
+    width: 100%;
+    text-align: center;
+}
