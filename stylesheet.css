@@ -45,9 +45,11 @@ body {
     width: 100%;
 }
 
+
 /* Header */
 #header {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     padding: 10px 100px;
@@ -93,15 +95,22 @@ body {
     left: 20px;
 }
 
+#menu-btn{
+    list-style: none;
+    font-size: 30px;
+    display: none;
+}
+
 
 /* Showcase */
 #showcase {
     background-image: url(Images/home-banner.jpg);
-    height: 80vh;
-    width: 100%;
+    height: 100%;
+    width: auto;
     background-size: cover;
     background-position: top 25% right 0%;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
@@ -113,18 +122,21 @@ body {
 /* Features */
 #fe-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin: 100px 30px;
+    gap: 50px;
 }
 
 #features .fe-box {
     width: 250px;
+    height: auto;
     text-align: center;
     padding: 25px 15px;
     box-shadow: 10px 10px 54px rgba(0, 0, 0, 0.2);
     border: 1px solid #cce7d0;
     border-radius: 4px;
-    margin: 100px 30px;
     transition: 0.2s ease;
 }
 
@@ -135,7 +147,7 @@ body {
 
 /* Bangalore Articles */
 #article {
-    margin-top: 60px;
+    margin-top: 50px;
     margin-bottom: 150px;
 }
 
@@ -145,6 +157,7 @@ body {
 
 #art-body {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -197,6 +210,7 @@ body {
 
 #model-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 
@@ -282,4 +296,58 @@ footer {
 footer .copyright {
     width: 100%;
     text-align: center;
+}
+
+/* Responsiveness */
+@media (max-width:900px) {
+
+    #header ul#navbar {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #e5d3c2;
+        transform: translate(-500px);
+        width: 30%;
+        height: 1000%;
+        box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.3);
+        border-right: 1px solid #ee8f12;
+        opacity: 0.9;
+        padding: 70px;
+        transition: transform 0.5s ease-in-out;
+    }
+
+    #header ul#navbar.show{
+        transform: translate(-20px);
+    }
+
+    #header ul#navbar li {
+        padding: 5px;
+        margin-bottom: 20px;
+    }
+
+    #navbar li a.active::after,
+    #navbar li a:hover::after {
+        content: "";
+        width: 30%;
+        height: 2px;
+        background: #ee8f12;
+        position: absolute;
+        bottom: -2px;
+        left: 5px;
+    }
+
+    #model-btn{
+        display: none;
+    }
+
+    #menu-btn{
+        cursor: pointer;
+        display: block;
+        transition: 0.2s ease;
+    }
+
+    #menu-btn:hover{
+        color: #ee8f12;
+    }
 }
