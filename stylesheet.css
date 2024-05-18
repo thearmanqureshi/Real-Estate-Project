@@ -350,4 +350,8 @@ footer .copyright {
     #menu-btn:hover{
         color: #ee8f12;
     }
+
+    #map{
+        display: none;
+    }
 }
