@@ -104,11 +104,10 @@ body {
 
 /* Showcase */
 #showcase {
-    background-image: url(Images/home-banner.jpg);
-    height: 100%;
-    width: auto;
+    background: url(Images/home-banner.jpg) no-repeat 0 -65px;
+    height: 85vh;
+    width: 100%;
     background-size: cover;
-    background-position: top 25% right 0%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -360,7 +359,8 @@ footer .copyright {
     }
 
     #showcase{
-        background: url(Images/home-banner.jpg) -805px -70px;
+        background: url(Images/home-banner.jpg) -805px -65px;
+        height: 100%;
     }
 
     #showcase h1{
