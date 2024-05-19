@@ -354,4 +354,20 @@ footer .copyright {
     #map{
         display: none;
     }
+
+    #header{
+        padding: 10px 60px;
+    }
+
+    #showcase{
+        background: url(Images/home-banner.jpg) -805px -70px;
+    }
+
+    #showcase h1{
+        font-size: 35px;
+    }
+
+    #showcase h5{
+        font-size: 17px;
+    }
 }
