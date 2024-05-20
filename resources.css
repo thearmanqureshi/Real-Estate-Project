@@ -187,3 +187,11 @@ footer p {
         width: auto;
     }
 }
+
+@media (max-width:426px) {
+
+    #header ul#navbar{
+        padding: 35px;
+        padding-top: 100px;
+    }
+}
