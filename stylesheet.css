@@ -373,3 +373,32 @@ footer .copyright {
     }
 
 }
+
+@media (max-width:426px) {
+
+    #header ul#navbar{
+        padding: 35px;
+        padding-top: 100px;
+    }
+
+    #showcase h1{
+        font-size: 30px;
+    }
+
+    #showcase p{
+        font-size: 12px;
+    }
+
+    #fe-container{
+        margin: 100px 10px;
+        gap: 35px;
+    }
+
+    #article p{
+        font-size: 13px;
+    }
+
+    #model-container{
+        margin-top: 70px;
+    }
+}
