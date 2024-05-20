@@ -172,6 +172,14 @@ footer p {
 
 
 /* Responsiveness */
+@media (max-width:1300px) {
+
+    #container{
+        grid-template-columns: repeat(1, 1fr);
+        margin-bottom: 70px;
+    }
+}
+
 @media (max-width:900px) {
 
     #header ul#navbar {
@@ -269,10 +277,10 @@ footer p {
     }
 }
 
-@media (max-width:1300px) {
+@media (max-width:426px) {
 
-    #container{
-        grid-template-columns: repeat(1, 1fr);
-        margin-bottom: 70px;
+    #header ul#navbar{
+        padding: 35px;
+        padding-top: 100px;
     }
 }
