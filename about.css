@@ -230,6 +230,7 @@ footer p {
 
     #heading p{
         font-size: 18px;
+        text-align: center;
     }
 
     #container li{
@@ -243,5 +244,13 @@ footer p {
 
     #container mark{
         font-size: 18px;
+    }
+}
+
+@media (max-width:426px) {
+
+    #header ul#navbar{
+        padding: 35px;
+        padding-top: 100px;
     }
 }
