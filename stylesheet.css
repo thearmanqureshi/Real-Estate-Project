@@ -402,9 +402,3 @@ footer .copyright {
     }
 
 }
-
-@media (max-width:1365px) {
-    #showcase{
-        background: url(Images/home-banner.jpg) -300px -65px;
-    }
-}
