@@ -3,6 +3,10 @@
 ## Overview
 This project aims to predict house prices in Bangalore using the Bangalore House Dataset. The dataset includes information about various features of houses such as size, number of bedrooms (BHK), and number of bathrooms. The goal is to build a machine learning model that can accurately predict the price of a house based on these features.
 
+## Real Estate Project Repositories
+
+- This repositorie only consist of the frontend assets for the full resources visit this [repositorie](https://github.com/anshh-arora/real_estate_price_prediction.github.io)
+
 ## Dataset
 The dataset used for this project includes the following columns:
 - **Size**: The size of the house in square feet.
