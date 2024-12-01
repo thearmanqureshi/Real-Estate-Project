@@ -51,28 +51,24 @@ This project includes  machine learning models for predicting house prices.
 
 ## Contact Information
 For any inquiries or feedback regarding this project, please feel free to contact:
+### Arman Qureshi
+- Email: thearmanqureshi@gmail.com
+- LinkedIn: [Connect with me on LinkedIn](https://www.linkedin.com/in/thearmanqureshi/)
+- Github: [Follow me on Github](https://github.com/thearmanqureshi)
+  
 ### Ansh Arora
 - Email: ansharora.cs@gmail.com
 - LinkedIn: [Connect with me on LinkedIn](https://www.linkedin.com/in/ansh-arora-data-scientist)
 - Kaggle: [Follow me on Kaggle](https://www.kaggle.com/ansh1529)
 
-### Arman Qureshi
-- Email: thearmanqureshi@gmail.com
-- LinkedIn: [Connect with me on LinkedIn](https://www.linkedin.com/in/thearmanqureshi/)
-- Github: [Follow me on Github](https://github.com/thearmanqureshi)
-
 ## Contibuters
-### Ansh Arora
-  Created a prediction model using "Bangalore house dataset" performed data cleaning, EDA and others functions to build a accurate prediction model.
-  used a python Flask Server to deploy model gateway, so it can be used in Website UI.
 ### Arman Qureshi
   Developed a "Website UI" for accessing the "real_estate_price_prediction" model and can be viewed by anyone. he deployed the model on
   the website, users can try prediction on it.  
+### Ansh Arora
+  Created a prediction model using "Bangalore house dataset" performed data cleaning, EDA and others functions to build a accurate prediction model.
+  used a python Flask Server to deploy model gateway, so it can be used in Website UI.
 
 ---
 
 **Disclaimer**: This project is for educational purposes and should not be used for real-world applications without proper validation and testing. The developers are not liable for any misuse or misinterpretation of the results.
-
----
-
-Feel free to customize this README file further to include additional information or details specific to your project.
