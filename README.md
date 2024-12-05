@@ -7,6 +7,10 @@ This project aims to predict house prices in Bangalore using the Bangalore House
 
 - This repositorie only consist of the frontend assets for the full resources visit this [repositorie](https://github.com/anshh-arora/real_estate_price_prediction.github.io)
 
+## Responsiveness Screenshot
+![E_Academy Proxy](https://github.com/thearmanqureshi/Real-Estate-Project/blob/main/Images/RealEstate.png?raw=true)
+*Showcasing the responsiveness of the website*
+
 ## Dataset
 The dataset used for this project includes the following columns:
 - **Size**: The size of the house in square feet.
