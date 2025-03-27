@@ -69,7 +69,7 @@ For any inquiries or feedback regarding this project, please feel free to contac
 - LinkedIn: [Connect with me on LinkedIn](https://www.linkedin.com/in/ansh-arora-data-scientist)
 - Kaggle: [Follow me on Kaggle](https://www.kaggle.com/ansh1529)
 
-## Contibuters
+## Contributers
 ### Arman Qureshi
   Developed a "Website UI" for accessing the "real_estate_price_prediction" model and can be viewed by anyone. he deployed the model on
   the website, users can try prediction on it.  
